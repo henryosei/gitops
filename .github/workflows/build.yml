@@ -25,4 +25,4 @@ jobs:
         with:
           context: ./
           file: ./Dockerfile
-          tags: rocahenr/gitops:latest
+          tags: rocahenry/gitops:latest
