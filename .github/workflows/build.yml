@@ -21,7 +21,7 @@ jobs:
         id: buildx
       - name: build flask app and push to dockerhub
         id: docker_build
-        uses: docker/build-push-action@V2
+        uses: docker/build-push-action@V4
         with:
           context: ./
           file: ./Dockerfile
